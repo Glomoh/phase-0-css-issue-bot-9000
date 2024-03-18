@@ -1,0 +1,23 @@
+body {
+  background: pink; /* "background" was missing a colon (:) */
+}
+
+h1 {
+  color: blue;
+  font-size: 3em; /* "fontsize" was missing a hyphen (-), corrected to "font-size" */
+}
+
+h2 {
+  color: green;
+  font-weight: normal; /* Missing semicolon (;) and corrected "font-style" to "font-weight" */
+  font-style: italic;
+}
+
+.completed {
+  font-size: 12px; /* Corrected "font-family" to "font-size" */
+}
+
+#tasks .completed {
+  background: #ccc; /* "backgound" was misspelled, corrected to "background" */
+  text-decoration: line-through; /* Changed to "line-through" to strike through completed tasks */
+}
